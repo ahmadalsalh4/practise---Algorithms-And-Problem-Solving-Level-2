@@ -486,7 +486,7 @@ void PrintMultiplicationTable()
     }
 }
 
-void fun1()
+void Problem1()
 {
     PrintMultiplicationTable();
 }
@@ -504,7 +504,7 @@ void PrintPrimeNumbersFrom1ToN(int number)
     }
 }
 
-void fun2()
+void Problem2()
 {
     PrintPrimeNumbersFrom1ToN(ReadPositiveNumber("please enter a positive number :\n"));
 }
@@ -529,7 +529,7 @@ void PrintIsPerfect(int number)
     else cout << number << " is not perfect number";
 }
 
-void fun3()
+void Problem3()
 {
     PrintIsPerfect(ReadPositiveNumber("please enter positive number :\n"));
 }
@@ -546,7 +546,7 @@ void PrintPerfectNumbersFrom1ToN(int number)
     }
 }
 
-void fun4()
+void Problem4()
 {
     PrintPerfectNumbersFrom1ToN(ReadPositiveNumber("please enter positive number: \n"));
 }
@@ -563,7 +563,7 @@ void PrintDigits(int number)
     }
 }
 
-void fun5()
+void Problem5()
 {
     PrintDigits(ReadPositiveNumber("default"));
 }
@@ -586,7 +586,7 @@ void PrintSumOfDigits(int number)
     cout << "\nsum of " << number << " digits = " << SumOfDigits(number);
 }
 
-void fun6()
+void Problem6()
 {
     PrintSumOfDigits(ReadPositiveNumber("default"));
 }
@@ -609,7 +609,7 @@ void PrintReverseOfDigit(int number)
     cout << "reversed digit is:\n" << ReverseDigit(number) << endl;
 }
 
-void fun7()
+void Problem7()
 {
     PrintReverseOfDigit(ReadPositiveNumber("default"));
 }
@@ -634,7 +634,7 @@ void PrintFrequencyOfDigit(int number, int searched_digit)
     cout << "\ndigit " << searched_digit << " frequency is " << frequency << " time(s)\n";
 }
 
-void fun8()
+void Problem8()
 {
     int number = ReadPositiveNumber("please enter the main number (as positive number) :\n");
     int searched_digit = ReadPositiveNumber("please enter one digit to check (as positive number) :\n");
@@ -655,14 +655,14 @@ void PrintAllDigitsFrequency(int number)
     }
 }
 
-void fun9()
+void Problem9()
 {
     PrintAllDigitsFrequency(ReadPositiveNumber("please enter the main number (as positive number) :\n"));
 }
 
 
 
-void fun10()
+void Problem10()
 {
     PrintDigits(ReverseDigit(ReadPositiveNumber("default")));
 }
@@ -674,7 +674,7 @@ bool IsPalindromeNumber(int number)
     return number == ReverseDigit(number);
 }
 
-void fun11()
+void Problem11()
 {
     if (IsPalindromeNumber(ReadPositiveNumber("default")))
         cout << "\nyes, its palindrome number\n";
@@ -694,7 +694,7 @@ void PrintInvertedNumberPattern(int number)
     }
 }
 
-void fun12()
+void Problem12()
 {
     PrintInvertedNumberPattern(ReadPositiveNumber("default"));
 }
@@ -712,7 +712,7 @@ void PrintNumberPattern(int number)
     }
 }
 
-void fun13()
+void Problem13()
 {
     PrintNumberPattern(ReadPositiveNumber("default"));
 }
@@ -729,7 +729,7 @@ void PrintInvertedLetterPattern(int number)
     }
 }
 
-void fun14()
+void Problem14()
 {
     PrintInvertedLetterPattern(ReadPositiveNumber("default"));
 }
@@ -747,7 +747,7 @@ void PrintLetterPattern(int number)
     }
 }
 
-void fun15()
+void Problem15()
 {
     PrintLetterPattern(ReadPositiveNumber("default"));
 }
@@ -769,7 +769,7 @@ void  PrintAllWordsFromAAAToZZZ()
             }
 }
 
-void fun16()
+void Problem16()
 {
     PrintAllWordsFromAAAToZZZ();
 }
@@ -802,7 +802,7 @@ bool SercheForPassword(string password)
     return false;
 }
 
-void fun17()
+void Problem17()
 {
     SercheForPassword(ReadText("please enter 3-letter password (all capital):\n"));
 }
@@ -823,7 +823,7 @@ string Decrypt_Password(string password, short encryption_key)
     return password;
 }
 
-void fun18()
+void Problem18()
 {
     const short encryption_key = 2;
 
@@ -838,7 +838,7 @@ void fun18()
 
 
 
-void fun19()
+void Problem19()
 {
     for (int i = 1; i <= 3; i++)
         cout << RandomNumber(1, 10) << endl;
@@ -846,7 +846,7 @@ void fun19()
 
 
 
-void fun20()
+void Problem20()
 {
     cout << Randomcahr(enTypeOfChar::small_letter) << endl;
     cout << Randomcahr(enTypeOfChar::capital_letter) << endl;
@@ -856,14 +856,14 @@ void fun20()
 
 
 
-void fun21()
+void Problem21()
 {
     GetRandomKeys(ReadPositiveNumber("how many key you want: \n"));
 }
 
 
 
-void fun22()
+void Problem22()
 {
     int arr_length;
     int arr[100];
@@ -880,7 +880,7 @@ void fun22()
 
 
 
-void fun23()
+void Problem23()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("how many element you want to be filled in the array (max 100) :\n");
@@ -892,7 +892,7 @@ void fun23()
 
 
 
-void fun24()
+void Problem24()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("how many element you want to be filled in the array (max 100) :\n");
@@ -904,7 +904,7 @@ void fun24()
 
 
 
-void fun25()
+void Problem25()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("how many element you want to be filled in the array (max 100) :\n");
@@ -916,7 +916,7 @@ void fun25()
 
 
 
-void fun26()
+void Problem26()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("how many element you want to be filled in the array (max 100) :\n");
@@ -931,7 +931,7 @@ void fun26()
 
 
 
-void fun27()
+void Problem27()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("how many element you want to be filled in the array (max 100) :\n");
@@ -946,7 +946,7 @@ void fun27()
 
 
 
-void fun28()
+void Problem28()
 {
     int arr[100], arr2[100];
     int arr_length = ReadPositiveNumber("how many element you want to be filled in the array (max 100) :\n");
@@ -964,7 +964,7 @@ void fun28()
 
 
 
-void fun29()
+void Problem29()
 {
     int arr[100], prime_araray[100];
     int arr_length = ReadPositiveNumber("how many element you want to be filled in the array (max 100) :\n");
@@ -984,7 +984,7 @@ void fun29()
 
 
 
-void fun30()
+void Problem30()
 {
     int arr1[100], arr2[100], arr_sum[100];
     int arr_length = ReadPositiveNumber("how many element you want in the array (max 100) :\n");
@@ -1007,7 +1007,7 @@ void fun30()
 
 
 
-void fun31()
+void Problem31()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("enter number of elements:\n");
@@ -1027,7 +1027,7 @@ void fun31()
 
 
 
-void fun32()
+void Problem32()
 {
     int arr[100], arr2[100];
     int arr_length = ReadPositiveNumber("enter element:\n");
@@ -1044,7 +1044,7 @@ void fun32()
 
 
 
-void fun33()
+void Problem33()
 {
     string arr[100];
     int arr_length = ReadPositiveNumber("enter element:\n");
@@ -1056,7 +1056,7 @@ void fun33()
 
 
 
-void fun34()
+void Problem34()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("enter how many element you want:\n");
@@ -1082,7 +1082,7 @@ void fun34()
 
 
 
-void fun35()
+void Problem35()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("enter how many element you want:\n");
@@ -1106,7 +1106,7 @@ void fun35()
 
 
 
-void fun36()
+void Problem36()
 {
     int arr[100];
     int arr_length = 0;
@@ -1120,7 +1120,7 @@ void fun36()
 
 
 
-void fun37()
+void Problem37()
 {
     int arr[100], arr2[100], arr2_length = 0;
     int arr_length = ReadPositiveNumber("how many element you want to be filled in the array (max 100) :\n");
@@ -1138,7 +1138,7 @@ void fun37()
 
 
 
-void fun38()
+void Problem38()
 {
     int arr[100], arr2[100], arr2_length = 0;
     int arr_length = ReadPositiveNumber("how many element you want to be filled in the array (max 100) :\n");
@@ -1156,7 +1156,7 @@ void fun38()
 
 
 
-void fun39()
+void Problem39()
 {
     int arr[100], arr2[100], arr2_length = 0;
     int arr_length = ReadPositiveNumber("how many element you want to be filled in the array (max 100) :\n");
@@ -1190,7 +1190,7 @@ void FillArrayHardCoded40(int arr[], int& arr_length)
     arr_length = 10;
 }
 
-void fun40()
+void Problem40()
 {
     int arr[100], arr_length = 0, arr2[100], arr2_length = 0;
 
@@ -1219,7 +1219,7 @@ void FillArrayHardCoded41(int arr[], int& arr_length)
     arr_length = 6;
 }
 
-void fun41()
+void Problem41()
 {
     int arr[100], arr_length = 0;
 
@@ -1236,7 +1236,7 @@ void fun41()
 
 
 
-void fun42()
+void Problem42()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("enter array element size:\n");
@@ -1251,7 +1251,7 @@ void fun42()
 
 
 
-void fun43()
+void Problem43()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("enter array element size:\n");
@@ -1266,7 +1266,7 @@ void fun43()
 
 
 
-void fun44()
+void Problem44()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("enter array element size:\n");
@@ -1281,7 +1281,7 @@ void fun44()
 
 
 
-void fun45()
+void Problem45()
 {
     int arr[100];
     int arr_length = ReadPositiveNumber("enter array element size:\n");
@@ -1296,7 +1296,7 @@ void fun45()
 
 
 
-void fun46()
+void Problem46()
 {
     float number = ReadNumber("please enter a number: ");
     cout << "my abs: " << MyAbs(number) << endl;
@@ -1305,7 +1305,7 @@ void fun46()
 
 
 
-void fun47()
+void Problem47()
 {
     float number = ReadNumber("please enter a number: ");
     cout << "my round: " << MyRound(number) << endl;
@@ -1314,7 +1314,7 @@ void fun47()
 
 
 
-void fun48()
+void Problem48()
 {
     float number = ReadNumber("please enter a number: ");
     cout << "my floor: " << MyFloor(number) << endl;
@@ -1323,7 +1323,7 @@ void fun48()
 
 
 
-void fun49()
+void Problem49()
 {
     float number = ReadNumber("please enter a number: ");
     cout << "my ceil: " << MyCeil(number) << endl;
@@ -1332,7 +1332,7 @@ void fun49()
 
 
 
-void fun50()
+void Problem50()
 {
     float number = ReadNumber("please enter a number: ");
     cout << "my sqrt: " << MySqrt(number) << endl;
@@ -1343,7 +1343,6 @@ void fun50()
 int main()
 {
     srand((unsigned)time(NULL));
-    fun50();
 
     return 0;
 }
